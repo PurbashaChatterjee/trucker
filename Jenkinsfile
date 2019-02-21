@@ -35,7 +35,7 @@ node {
                   docker service create \
                     --replicas 1 \
                     --name ${DOCKER_SERVICE_ID} \
-                    --env spring.profiles.active=prod
+                    --env spring.profiles.active=prod\
                     ${DOCKERHUB_REPO}:${DOCKER_IMAGE_VERSION}
                 else
                   docker service update \
