@@ -1,5 +1,5 @@
 node {
-    def DOCKERHUB_REPO = "chatterjeepurb/trucker"
+    def DOCKERHUB_REPO = "doctestlearn/trucker"
     def DOCKER_SERVICE_ID = "trucker-service"
     def DOCKER_IMAGE_VERSION = ""
 
